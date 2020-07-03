@@ -1,0 +1,38 @@
+[
+  {
+    "model": "pet_auction.user",
+    "pk": 2,
+    "fields": {
+      "username": "user1",
+      "password": "user1",
+      "balance": 1000
+    }
+  },
+  {
+    "model": "pet_auction.user",
+    "pk": 3,
+    "fields": {
+      "username": "user2",
+      "password": "user2",
+      "balance": 300
+    }
+  },
+  {
+    "model": "pet_auction.pet",
+    "pk": 1,
+    "fields": {
+      "breed": "american cocker spaniel",
+      "nickname": "First pet",
+      "owner": 2
+    }
+  },
+  {
+    "model": "pet_auction.pet",
+    "pk": 2,
+    "fields": {
+      "breed": "Welsh Corgi Cardigan",
+      "nickname": "Second pet",
+      "owner": 3
+    }
+  }
+]
